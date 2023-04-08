@@ -15,6 +15,7 @@ html, body {
     padding: 0 !important;
 }
 
+// MARK - INICIA PARTE DE KAR
 
 .header {
     background-color: rgb(245, 245, 245);
@@ -109,6 +110,10 @@ html, body {
         }
     }
 }
+//MARK - TERMINA PARTE DE KAR
+
+
+//MARK - INICIA PARTE DE SAM
 .row_footer {
     background:rgb(229 229 229);
     display: flex;
@@ -199,11 +204,10 @@ html, body {
         font-size: 5px;
         color: rgb(188, 183, 183);
     }
-            
-
 }
+//MARK - TERMINA PARTE DE SAM
 
-
+//MARK - INICIA PARTE DE ROB
 .menu_section {
     background-color: rgb(243, 243, 243);
     min-width: 300px;
@@ -387,8 +391,10 @@ html, body {
         }
     }
 }
+//MARK - TERMINA PARTE DE ROB
 
 
+//MARK - INICIA PARTE DE MAX
 .col-3  {
     // border: dashed 15px blue;
     background: rgb(247, 246, 246);
@@ -506,3 +512,4 @@ html, body {
             display: inline;
         } 
     }
+    //MARK - INICIA PARTE DE MAX
