@@ -2,6 +2,8 @@
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .col-2, .col-7, .col-3 {
@@ -37,18 +39,7 @@
   padding: 4px;
   font-size: 14px;
   width: auto;
-  /*  .underline_hover::after{
-       content:"";
-       height: 1px;
-       width: 100%;
-       background-color: rgb(48, 58, 167);
-       display: block;
-       transition: all 1s;
 
-   }
-       .underline_hover :hover ::after {
-           width: 100%;
-       } */
 }
 .row_footer .footer_container .text_1 p a {
   color: rgb(59, 73, 223);
@@ -118,3 +109,151 @@
 
 
 } *//*# sourceMappingURL=styles.css.map */
+=======
+.menu_section {
+  background-color: rgb(243, 243, 243);
+  min-width: 300px;
+}
+.menu_section aside {
+  display: grid;
+  place-content: center;
+}
+.menu_section aside .menu_section__sidebar__menu {
+  display: flex;
+  width: 100%;
+}
+.menu_section aside .menu_section__sidebar__menu .menu_section__sidebar__menu__list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style-type: none;
+}
+.menu_section aside .menu_section__sidebar__menu .menu_section__sidebar__menu__list .menu_section__sidebar__title {
+  margin: 0;
+  font-size: medium;
+  font-weight: bold;
+  padding: 1rem 1rem 0.5rem 0.5rem;
+}
+.menu_section aside .menu_section__sidebar__menu .menu_section__sidebar__menu__list li {
+  margin: 0;
+  width: 260px;
+}
+.menu_section aside .menu_section__sidebar__menu .menu_section__sidebar__menu__list li a {
+  color: rgb(56, 56, 56);
+  display: flex;
+  text-decoration: none;
+  margin: 0;
+  font-size: medium;
+  padding: 0.5rem;
+}
+.menu_section aside .menu_section__sidebar__menu .menu_section__sidebar__menu__list li a img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  bottom: 1px;
+}
+.menu_section aside .menu_section__sidebar__menu .menu_section__sidebar__menu__list li a:hover {
+  color: rgb(50, 57, 169);
+  text-decoration: underline;
+  border-radius: 0.3rem;
+  background-color: rgb(224, 225, 240);
+}
+.menu_section aside .social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu_section aside .social-container .menu_section__social {
+  display: flex;
+  width: 100%;
+  font-size: 22px;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu_section aside .social-container .menu_section__social a {
+  color: rgb(56, 56, 56);
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.menu_section aside .social-container .menu_section__social a:hover {
+  color: rgb(50, 57, 169);
+  border-radius: 0.3rem;
+  background-color: rgb(224, 225, 240);
+}
+.menu_section aside .tags-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu_section aside .tags-container .menu_section__tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 4rem 0;
+  font-size: 22px;
+  width: 100%;
+}
+.menu_section aside .tags-container .menu_section__tags .menu_section__tags__title {
+  margin: 0;
+  font-size: medium;
+  font-weight: bold;
+}
+.menu_section aside .tags-container .menu_section__tags a {
+  color: rgb(56, 56, 56);
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem;
+}
+.menu_section aside .tags-container .menu_section__tags a:hover {
+  color: rgb(50, 57, 169);
+  border-radius: 0.3rem;
+  background-color: rgb(224, 225, 240);
+}
+.menu_section aside .menu_section__card {
+  display: grid;
+  width: 250px;
+  margin: 1rem 0 0 0;
+  background-color: rgb(249, 249, 249);
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
+}
+.menu_section aside .menu_section__card .menu_section__card__title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.menu_section aside .menu_section__card .menu_section__card__title h3 {
+  margin: 0;
+  font-size: small;
+  padding: 0.5rem 0.5rem;
+}
+.menu_section aside .menu_section__card .menu_section__card__title i {
+  padding: 0.5rem;
+}
+.menu_section aside .menu_section__card .menu_section__card__title i:hover {
+  color: rgb(50, 57, 169);
+  border-radius: 0.3rem;
+  background-color: rgb(224, 225, 240);
+}
+.menu_section aside .menu_section__card .menu_section__card__image {
+  display: flex;
+  margin: 1rem;
+}
+.menu_section aside .menu_section__card .menu_section__card__image img {
+  width: 210px;
+  height: 90px;
+  border-radius: 6px;
+}
+.menu_section aside .menu_section__card p {
+  margin: 0.5rem 1rem;
+  max-width: auto;
+}
+.menu_section aside .menu_section__card p strong span {
+  font-size: 25px;
+}
+.menu_section aside .menu_section__card p a {
+  color: rgb(55, 64, 215);
+}
+.menu_section aside .menu_section__card p a:hover {
+  color: rgb(44, 51, 166);
+}/*# sourceMappingURL=styles.css.map */
