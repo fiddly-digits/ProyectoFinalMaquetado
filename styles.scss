@@ -15,128 +15,6 @@ html, body {
     padding: 0 !important;
 }
 
-.col-3  {
-// border: dashed 15px blue;
-background: rgb(247, 246, 246);
-border-radius: 2%;
-box-shadow: 0 0 0 1px rgba(220, 220, 220, 0.875);
- a {
-    color: black;
-    text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    }
-}
-
-.listing_section .box1{
-    display: grid;
-    grid-template-rows: auto auto auto auto auto auto  auto;
-    gap: 15px;
-    box-shadow: 0 0 0 1px rgba(220, 220, 220, 0.119);
-    grid-template-rows: auto ;
-
-    div {
-    font-family: system-ui, system-ui, "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto", "Oxygen", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', sans-serif, "BlinkMacSystemFont", 'Segoe UI', "Roboto", 'Helvetica Neue', sans-serif;
-    font-size: 1rem;
-    font-weight: 450;
-    margin: 0px;
-    width: 100%;
-   }
-   span {
-        &:hover{
-            background: #fff;
-        }
-    }
-    h6{
-        color: rgb(91, 91, 91);
-        font-family: sans-serif;
-        font-size: .850rem;
-        margin-top: 4px;
-        width: 100%;
-       }
-       .span1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: 15px;
-        padding-left: 10px;
-        padding-right: 5px;
-        &:hover {
-                background:rgb(247, 246, 246);
-            }
-            .divide_box1_1 {
-                color: rgb(71, 71, 71);
-                font-size: 1.25rem;
-                font-weight: bold;
-            }
-            .divide_box1_2 {
-                color: rgb(59, 73, 223);
-                font-size: .9rem;
-                justify-self: right;
-                padding-right: 5px;
-                font-weight: 550;
-            }
-    }
-    
-    .span7 {
-        display: flex;
-        justify-content: space-around;
-       
-       .divide_box1_13 {
-        font-size: 1rem;
-        font-weight: 500;
-        padding-bottom: 10px;
-       }
-            &:hover {
-            background:rgb(247, 246, 246);
-    }
-    }
-       
-}
-
-   .listing_section .box2{
-    display: grid;
-    gap: 15px;
-    grid-template-rows: auto auto auto auto;
-    div {
-        font-family: system-ui, system-ui, "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto", "Oxygen", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', sans-serif, "BlinkMacSystemFont", 'Segoe UI', "Roboto", 'Helvetica Neue', sans-serif;
-        font-size: 1rem;
-        font-weight: 450;
-        margin: 0px;
-        width: 100%;
-       }
-       
-       span {
-        box-shadow: 0 0 0 1px rgba(220, 220, 220, 0.12);
-        gap: 5px;
-        grid-template-rows: auto auto;
-        padding: 2px;
-        &:hover{
-            background: #fff;
-        }
-    }
- 
-    h6{
-        color: rgb(91, 91, 91);
-        font-family: sans-serif;
-        font-size: .850rem;
-        margin-top: 4px;
-        width: 100%;
-       }
-       
-    .minibox1 .divide_box_2_0 {
-        font-size: 1.1rem;
-        font-weight: 700;
-       }
-       .divide_box2_2{
-        background-color: rgb(252, 211, 77);
-        display: inline;
-    } 
-}
-   
-.row {
-    margin: 0 !important;
-    padding: 0 !important;
-}
 
 .header {
     background-color: rgb(245, 245, 245);
@@ -165,16 +43,16 @@ box-shadow: 0 0 0 1px rgba(220, 220, 220, 0.875);
                         border-radius: .3rem;
                         background-color: rgb(224, 225, 240);
                     }
-                    
+
                 } 
                 & .user {
                     font-size: 23px;
-                    
+
                     &:hover{
                         border-radius: 50%; 
                         box-shadow: 0 0 0 8px rgba(23, 23, 23, 0.05);
                     }
-                    
+
                 } 
                 & a {
                     background-color: rgb(249, 249, 249);
@@ -220,7 +98,17 @@ box-shadow: 0 0 0 1px rgba(220, 220, 220, 0.875);
                 & img {
                     width: 30px;
                     padding: 5px;
-=======
+                    &:hover {
+                        color: rgb(50, 57, 169);
+                        border-radius: .3rem;
+                        background-color: rgb(224, 225, 240);
+                    }
+                }
+
+            }
+        }
+    }
+}
 .row_footer {
     background:rgb(229 229 229);
     display: flex;
@@ -284,6 +172,7 @@ box-shadow: 0 0 0 1px rgba(220, 220, 220, 0.875);
             }
                 
         }
+
     .text_2 p{
         align-items: center;
         font-family:"Roboto", sans-serif;
@@ -430,14 +319,6 @@ box-shadow: 0 0 0 1px rgba(220, 220, 220, 0.875);
                         background-color: rgb(224, 225, 240);
                     }
                 }
-
-            }
-        }
-    }
-
-}
-
-
             }
         }
         .menu_section__card {
@@ -506,3 +387,122 @@ box-shadow: 0 0 0 1px rgba(220, 220, 220, 0.875);
         }
     }
 }
+
+
+.col-3  {
+    // border: dashed 15px blue;
+    background: rgb(247, 246, 246);
+    border-radius: 2%;
+    box-shadow: 0 0 0 1px rgba(220, 220, 220, 0.875);
+     a {
+        color: black;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+    }
+    
+    .listing_section .box1{
+        display: grid;
+        grid-template-rows: auto auto auto auto auto auto  auto;
+        gap: 15px;
+        box-shadow: 0 0 0 1px rgba(220, 220, 220, 0.119);
+        grid-template-rows: auto ;
+    
+        div {
+        font-family: system-ui, system-ui, "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto", "Oxygen", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', sans-serif, "BlinkMacSystemFont", 'Segoe UI', "Roboto", 'Helvetica Neue', sans-serif;
+        font-size: 1rem;
+        font-weight: 450;
+        margin: 0px;
+        width: 100%;
+       }
+       span {
+            &:hover{
+                background: #fff;
+            }
+        }
+        h6{
+            color: rgb(91, 91, 91);
+            font-family: sans-serif;
+            font-size: .850rem;
+            margin-top: 4px;
+            width: 100%;
+           }
+           .span1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 15px;
+            padding-left: 10px;
+            padding-right: 5px;
+            &:hover {
+                    background:rgb(247, 246, 246);
+                }
+                .divide_box1_1 {
+                    color: rgb(71, 71, 71);
+                    font-size: 1.25rem;
+                    font-weight: bold;
+                }
+                .divide_box1_2 {
+                    color: rgb(59, 73, 223);
+                    font-size: .9rem;
+                    justify-self: right;
+                    padding-right: 5px;
+                    font-weight: 550;
+                }
+        }
+        
+        .span7 {
+            display: flex;
+            justify-content: space-around;
+           
+           .divide_box1_13 {
+            font-size: 1rem;
+            font-weight: 500;
+            padding-bottom: 10px;
+           }
+                &:hover {
+                background:rgb(247, 246, 246);
+        }
+        }
+           
+    }
+    
+       .listing_section .box2{
+        display: grid;
+        gap: 15px;
+        grid-template-rows: auto auto auto auto;
+        div {
+            font-family: system-ui, system-ui, "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto", "Oxygen", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', sans-serif, "BlinkMacSystemFont", 'Segoe UI', "Roboto", 'Helvetica Neue', sans-serif;
+            font-size: 1rem;
+            font-weight: 450;
+            margin: 0px;
+            width: 100%;
+           }
+           
+           span {
+            box-shadow: 0 0 0 1px rgba(220, 220, 220, 0.12);
+            gap: 5px;
+            grid-template-rows: auto auto;
+            padding: 2px;
+            &:hover{
+                background: #fff;
+            }
+        }
+     
+        h6{
+            color: rgb(91, 91, 91);
+            font-family: sans-serif;
+            font-size: .850rem;
+            margin-top: 4px;
+            width: 100%;
+           }
+           
+        .minibox1 .divide_box_2_0 {
+            font-size: 1.1rem;
+            font-weight: 700;
+           }
+           .divide_box2_2{
+            background-color: rgb(252, 211, 77);
+            display: inline;
+        } 
+    }
