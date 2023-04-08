@@ -2,3 +2,111 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+.col-2, .col-7, .col-3 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.header {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    height: 60px;
+    border-bottom: solid 1px  rgb(150, 150, 150);
+    box-shadow: 0 0 0 2px rgba(23, 23, 23, 0.05);
+
+
+    & .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        & .icons {
+            display: flex;
+            padding-right: 65px;
+            & .create-post {
+                align-items: center;
+                display: flex;
+                gap: 15px;
+                & .bell {
+                    font-size: 23px;
+                    padding: 5px 10px;
+                    &:hover{
+                        color: rgb(50, 57, 169);
+                        border-radius: .3rem;
+                        background-color: rgb(224, 225, 240);
+                    }
+                    
+                } 
+                & .user {
+                    font-size: 23px;
+                    
+                    &:hover{
+                        border-radius: 50%; 
+                        box-shadow: 0 0 0 8px rgba(23, 23, 23, 0.05);
+                    }
+                    
+                } 
+                & a {
+                    background-color: rgb(249, 249, 249);
+                    border: solid 1px rgb(50, 57, 169);
+                    border-radius: 6px;
+                    padding: 7px 15px;
+                    text-decoration: none;
+                    color: rgb(50, 57, 169);
+
+                    &:hover {
+                        background: rgb(50, 57, 169);
+                        color: #ffff;
+                        text-decoration: underline;
+                    }
+                }   
+            }
+         }
+        & .logo-search {
+            padding-left: 65px;
+            display: flex;
+            gap: 20px;
+            & img {
+                width: 40px;
+                border-radius: 10%;
+            }
+            & .search-bar {
+                display: flex;
+                border-radius: 6px;
+                background-color:white;
+                justify-content: space-between;
+                align-items: center;
+                border:  solid 1px rgb(120, 120, 120);
+                &:hover {
+                    border:solid 2px rgb(50, 57, 169);
+                }
+                & input {
+                    border-width: 0px;
+                    border-style: none;
+                    border-color:transparent;
+                    padding: 5px;
+                    outline: none;
+                }
+                & img {
+                    width: 30px;
+                    padding: 5px;
+                    &:hover {
+                        color: rgb(50, 57, 169);
+                        border-radius: .3rem;
+                        background-color: rgb(224, 225, 240);
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+
+
