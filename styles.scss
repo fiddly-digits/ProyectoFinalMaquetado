@@ -5,6 +5,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.col-2, .col-7, .col-3 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 
 .row_footer {
     background:rgb(229 229 229);
@@ -21,7 +31,7 @@
         .text_1 p{
             align-items: center;
             display:flex;
-            font-family: 'Roboto', sans-serif;
+            font-family:"Roboto", sans-serif;
             flex-direction: row;
             justify-content: center;
             margin-bottom: 0;
@@ -30,7 +40,7 @@
             width: auto;
             a {
                 color: rgb(59 73 223);
-                font-family: 'Roboto', sans-serif;
+                font-family: "Roboto", sans-serif;
                 font-weight:bolder;
                 font-size: 14px;
                 transition: 0.3s;
@@ -61,12 +71,12 @@
             gap: 7px;
             justify-content: center;
             margin: bottom 4px;;
-            padding: 0px 10px;
+            padding: 20px;
             width: auto;
 
             li {
                 color: rgb(59 73 223);
-                font-family: 'Roboto', sans-serif;
+                font-family:"Roboto", sans-serif;
                 font-size: 14px;
                 margin: 0;
                 padding: 3px;
@@ -74,7 +84,7 @@
                 
             a {
                     color: rgb(59 73 223);
-                    font-family: 'Roboto', sans-serif;
+                    font-family: "Roboto", sans-serif;
                     text-decoration: none;
             
                 }
@@ -84,7 +94,7 @@
         }
     .text_2 p{
         align-items: center;
-        font-family: 'Roboto', sans-serif;
+        font-family:"Roboto", sans-serif;
         font-size: 14px;
         display:flex;
         flex-direction: row;
@@ -95,7 +105,7 @@
         width: auto;
     
         .final_anchor2 {
-            font-family: 'Roboto', sans-serif;
+            font-family:"Roboto", sans-serif;
             text-decoration: none;
             color:rgb(59 73 223);
 
@@ -112,7 +122,17 @@
 
 }
 
+/* .underline_hover {
+    text-decoration: none;
+    transition: 0.5s;
 
+}
 
+.underline_hover:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    
+
+} */
 
 
