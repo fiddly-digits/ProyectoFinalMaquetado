@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap%27");
 * {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -11,299 +11,188 @@
   padding: 0 !important;
 }
 
-.cards div {
-  display: flex;
-  flex: 1 1 50%;
-  max-width: 775px;
+.post_section .post_section__main {
+  background-color: rgb(243, 243, 243);
+  padding: 20px;
 }
-
-.cards {
+.post_section .post_section__main .post_section__main--bluecard {
+  background-color: rgb(55, 64, 215);
+  border-radius: 6px;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  padding: 40px;
+  justify-content: space-between;
 }
-.cards .card_initial {
-  background-color: #3b49df;
-  border-radius: 10px;
+.post_section .post_section__main .post_section__main--bluecard .logo {
   display: flex;
-  height: 650px;
-  padding: 32px 48px;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
-.cards .card_initial .imagen_logo {
-  height: 115px;
-  padding-bottom: 5px;
-  margin: 0px;
+.post_section .post_section__main .post_section__main--bluecard .logo img {
+  display: inline;
+  height: 100px;
+  width: 100px;
 }
-.cards .card_initial button {
-  background-color: #3b49df;
-  border: none;
-  height: 22px;
-  margin: 0px;
-  padding: 0px 2px;
-  position: relative;
-  top: -8px;
-}
-.cards .card_initial button i {
-  padding: 0px;
-  margin: 0px;
-  color: #ffffff;
-}
-.cards .card_initial h2 {
+.post_section .post_section__main .post_section__main--bluecard .boton-close button {
+  background-color: transparent;
+  border: 0;
   color: white;
-  display: flex;
-  font-size: 37px;
-  font-weight: 800;
+}
+.post_section .post_section__main .post_section__main--bluecard .emojis {
+  flex: 1 1 100%;
+}
+.post_section .post_section__main .post_section__main--bluecard .emojis h2 {
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+.post_section .post_section__main .post_section__main--bluecard .emojis p {
+  color: rgb(184, 187, 241);
   margin: 0;
-  height: 63px;
-  padding: 0;
+  font-size: 0.8rem;
 }
-.cards .card_initial span {
-  color: #ffffff;
-  font-size: 16px;
-  margin: 0;
-  width: 800px;
-}
-.cards .happy {
-  background-color: rgba(255, 255, 255, 0.1764705882);
-  border-radius: 10px;
-  height: 80px;
-  max-width: 665px;
-  padding: 30px 20px;
-}
-.cards .happy a {
-  text-decoration: none;
-}
-.cards .happy i {
-  color: #ffffff;
-  padding-left: 350px;
-}
-.cards .hand {
-  background-color: rgba(255, 255, 255, 0.1764705882);
-  border-radius: 10px;
-  height: 80px;
-  max-width: 665px;
-  padding: 30px 20px;
-}
-.cards .hand a {
-  text-decoration: none;
-}
-.cards .hand i {
-  color: #ffffff;
-  padding-left: 260px;
-}
-.cards .fingers {
-  background-color: rgba(255, 255, 255, 0.1764705882);
-  border-radius: 10px;
-  height: 80px;
-  max-width: 665px;
-  padding: 30px 20px;
-}
-.cards .fingers a {
-  text-decoration: none;
-}
-.cards .fingers i {
-  color: #ffffff;
-  padding-left: 370px;
-}
-.cards .menu_line {
+.post_section .post_section__main .post_section__main--bluecard .emojis ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-right: 40px;
   display: flex;
-  gap: 30px;
-  font-size: 20px;
-}
-.cards .menu_line a {
-  text-decoration: none;
-  color: rgb(104, 101, 101);
-}
-.cards .card_vista {
-  max-width: 775px;
-  display: flex;
-  flex: 1 1 50%;
   flex-wrap: wrap;
+  gap: 15px;
 }
-.cards .card_vista img {
-  border: solid 1px rgba(110, 110, 109, 0.692);
-  border-bottom: none;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  max-width: 775px;
-}
-.cards .card_vista .luis {
-  border: solid 1px rgba(110, 110, 109, 0.692);
-  border-radius: 10px;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-top: 0;
+.post_section .post_section__main .post_section__main--bluecard .emojis ul li {
+  background-color: rgb(95, 102, 223);
+  border-radius: 6px;
   display: flex;
-  flex: 1 1 50%;
-  flex-wrap: wrap;
-  max-width: 775px;
-  height: 250px;
-  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex: 1 1 100%;
 }
-.cards .card_vista .luis img {
-  border-radius: 50%;
-  height: 55px;
-  width: 55px;
-  padding: 0;
+.post_section .post_section__main .post_section__main--bluecard .emojis ul li:hover {
+  background-color: rgb(115, 122, 227);
 }
-.cards .card_vista .luis button {
-  border: none;
-  background: #ffffff;
-  height: 30px;
-  margin: 0;
-}
-.cards .card_vista .luis button .jasper {
-  font-size: 20px;
-  font-weight: 800;
-  margin: 0;
-  padding-left: 10px;
-  text-align: start;
-}
-.cards .card_vista .luis button p {
-  font-size: 16px;
-  padding-left: 10px;
-}
-.cards .card_vista .luis .How {
-  font-size: 30px;
-  font-weight: 900;
-  padding-left: 70px;
+.post_section .post_section__main .post_section__main--bluecard .emojis ul li a {
+  color: white;
   text-decoration: none;
-  color: black;
+  font-weight: 500;
 }
-.cards .card_vista .luis .hash {
-  padding-left: 70px;
-  gap: 30px;
+.post_section .post_section__main .post_section__main--bluecard .emojis ul li i {
+  color: white;
 }
-.cards .card_vista .luis .hash a {
-  color: black;
-  text-decoration: none;
+.post_section .post_section__main .post_section__main--menu-aling {
+  padding: 15px;
 }
-.cards .card_vista .luis .botones {
-  height: 40px;
-  margin-top: 15px;
-  padding-top: 10px;
-  padding-left: 70px;
-}
-.cards .card_vista .luis .botones p {
-  padding-left: 5px;
-  padding-top: 5px;
-  margin: 0;
-  font-size: 14px;
-}
-.cards .card_vista .luis .botones div {
-  padding-left: 375px;
-}
-.cards .card_vista .luis .botones div p {
-  font-size: 12px;
-}
-.cards .card_vista .luis .botones button {
-  padding-right: 10px;
-  margin: 0;
-}
-.cards .card_vista .luis .botones button img {
-  border: none;
-  border-radius: 0%;
-  height: 25px;
-  width: 25px;
-}
-.cards .tarj-comments {
-  border: solid 1px rgba(110, 110, 109, 0.692);
-  border-radius: 10px;
-  display: flex;
-  flex: 1 1 50%;
-  flex-wrap: wrap;
-  max-width: 775px;
-  height: 250px;
-  padding: 30px;
-}
-.cards .tarj-comments img {
-  border-radius: 50%;
-  height: 55px;
-  width: 55px;
-  padding: 0;
-}
-.cards .tarj-comments button {
-  border: none;
-  background: #ffffff;
-  height: 30px;
-  margin: 0;
-}
-.cards .tarj-comments button .jasper {
+.post_section .post_section__main .post_section__main--menu-aling a {
+  color: #575757;
   font-size: 18px;
-  font-weight: 800;
-  margin: 0;
-  padding-left: 10px;
-  text-align: start;
-}
-.cards .tarj-comments button p {
-  font-size: 16px;
-  padding-left: 10px;
-}
-.cards .tarj-comments .How {
-  font-size: 25px;
-  font-weight: 900;
-  padding-left: 70px;
   text-decoration: none;
-  color: black;
+  padding: 12px 10px;
 }
-.cards .tarj-comments .hash {
-  padding-left: 70px;
-  gap: 30px;
+.post_section .post_section__main .post_section__main--menu-aling a:hover {
+  background-color: white;
+  box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
+  border-radius: 6px;
+  color: rgb(50, 57, 169);
 }
-.cards .tarj-comments .hash a {
-  color: black;
-  text-decoration: none;
+.post_section .post_section__main .post_section__main--post {
+  background-color: white;
+  border-radius: 6px;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 10px;
 }
-.cards .tarj-comments .botones {
-  height: 40px;
-  margin-top: 15px;
-  padding-top: 10px;
-  padding-left: 70px;
-}
-.cards .tarj-comments .botones p {
-  padding-left: 5px;
-  padding-top: 5px;
-  margin: 0;
-  font-size: 14px;
-}
-.cards .tarj-comments .botones div {
-  padding-left: 375px;
-}
-.cards .tarj-comments .botones div p {
-  font-size: 12px;
-}
-.cards .tarj-comments .botones button {
+.post_section .post_section__main .post_section__main--post .user-img {
   padding-right: 10px;
-  margin: 0;
 }
-.cards .tarj-comments .botones button img {
-  border: none;
-  border-radius: 0%;
-  height: 25px;
-  width: 25px;
+.post_section .post_section__main .post_section__main--post .user-img img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
-.happy:hover {
-  background-color: rgba(255, 255, 255, 0.3647058824);
+.post_section .post_section__main .post_section__main--post .user-post {
+  display: flex;
+  flex-wrap: wrap;
 }
-
-.hand:hover {
-  background-color: rgba(255, 255, 255, 0.3647058824);
+.post_section .post_section__main .post_section__main--post .user-post .user-post--name {
+  color: #474747;
+  display: block;
+  font-size: 18px;
 }
-
-.fingers:hover {
-  background-color: rgba(255, 255, 255, 0.3647058824);
+.post_section .post_section__main .post_section__main--post .user-post .user-post--name span {
+  border-radius: 6px;
+  padding: 4px;
 }
-
-.menu_line a:hover {
-  cursor: pointer;
-  color: #2433d8;
+.post_section .post_section__main .post_section__main--post .user-post .user-post--name span:hover {
+  background-color: rgb(246, 246, 246);
 }
-
-.jasper:hover {
-  background-color: rgba(110, 110, 109, 0.123);
-  border-radius: 5px;
+.post_section .post_section__main .post_section__main--post .user-post .user-post--date {
+  color: #979494;
+}
+.post_section .post_section__main .post_section__main--post .user-post .user-post--date:hover {
+  color: black;
+}
+.post_section .post_section__main .post_section__main--post .user-post .user-post--title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.post_section .post_section__main .post_section__main--post .user-post .user-post--title:hover {
+  color: rgb(43, 50, 164);
+}
+.post_section .post_section__main .post_section__main--post .user-post a {
+  flex: 1 1 100%;
+  color: rgb(23, 23, 23);
+  text-decoration: none;
+}
+.post_section .post_section__main .post_section__main--post .user-post .hash {
+  flex: 1 1 100%;
+  margin: 10px 0px;
+}
+.post_section .post_section__main .post_section__main--post .user-post .hash a {
+  border-radius: 6px;
+  padding: 7px;
+}
+.post_section .post_section__main .post_section__main--post .user-post .hash a:hover {
+  background-color: rgb(246, 246, 246);
+  box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.1);
+}
+.post_section .post_section__main .post_section__main--post .user-post .comments {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.post_section .post_section__main .post_section__main--post .user-post .comments .time {
+  display: flex;
+  padding-right: 30px;
+  gap: 15px;
+  justify-content: end;
+  align-items: center;
+}
+.post_section .post_section__main .post_section__main--post .user-post .comments .time i {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+}
+.post_section .post_section__main .post_section__main--post .user-post .comments .time i:hover {
+  color: rgb(50, 57, 169);
+  border-radius: 0.3rem;
+  background-color: rgb(224, 225, 240);
+}
+.post_section .post_section__main .post_section__main--post .user-post .comments .add {
+  display: flex;
+}
+.post_section .post_section__main .post_section__main--post .user-post .comments .add span {
+  padding: 8px;
+  border-radius: 6px;
+}
+.post_section .post_section__main .post_section__main--post .user-post .comments .add span:hover {
+  background-color: rgb(246, 246, 246);
+  box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.1);
+}
+.post_section .post_section__main .post_section__main--post .user-post .comments .add span::before {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  content: "\f075";
+  padding-right: 5px;
 }
 
 .header {
@@ -425,28 +314,33 @@
   transition: 0.3s;
   text-decoration: none;
 }
-.row_footer .a_list {
+.row_footer .a_list, .row_footer .b_list {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  gap: 7px;
   justify-content: center;
-  margin: bottom 4px;
+  margin-bottom: 4px;
   padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
   width: auto;
 }
-.row_footer .a_list li {
+.row_footer .a_list li, .row_footer .b_list li {
+  display: block;
   color: rgb(59, 73, 223);
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  margin: 0;
   padding: 3px;
   list-style: none;
 }
-.row_footer .a_list li a {
+.row_footer .a_list li a, .row_footer .b_list li a {
+  white-space: nowrap;
   color: rgb(59, 73, 223);
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+}
+.row_footer .a_list li span, .row_footer .b_list li span {
+  color: rgb(113, 112, 112);
+  margin: 5px;
 }
 .row_footer .text_2 p {
   align-items: center;
