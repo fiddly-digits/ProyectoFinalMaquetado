@@ -9,9 +9,58 @@
   margin: 0 !important;
 }
 
+.post_section {
+  padding-bottom: 20px;
+}
+.post_section .menu_section__card {
+  display: grid;
+  margin: 1rem 0 0 0;
+  background-color: rgb(249, 249, 249);
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
+}
+.post_section .menu_section__card .menu_section__card__title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.post_section .menu_section__card .menu_section__card__title h3 {
+  margin: 0;
+  font-size: small;
+  padding: 0.5rem 0.5rem;
+}
+.post_section .menu_section__card .menu_section__card__title i {
+  padding: 0.5rem;
+}
+.post_section .menu_section__card .menu_section__card__title i:hover {
+  color: rgb(50, 57, 169);
+  border-radius: 0.3rem;
+  background-color: rgb(224, 225, 240);
+}
+.post_section .menu_section__card .menu_section__card__image {
+  display: flex;
+  padding-left: 50px;
+}
+.post_section .menu_section__card .menu_section__card__image img {
+  width: 600px;
+  height: 200px;
+  border-radius: 6px;
+}
+.post_section .menu_section__card p {
+  padding-left: 50px;
+  max-width: auto;
+}
+.post_section .menu_section__card p strong span {
+  font-size: 25px;
+}
+.post_section .menu_section__card p a {
+  color: rgb(55, 64, 215);
+}
+.post_section .menu_section__card p a:hover {
+  color: rgb(44, 51, 166);
+}
 .post_section .post_section__main {
   background-color: rgb(243, 243, 243);
-  width: 750px;
   padding-top: 20px;
 }
 .post_section .post_section__main .post_section__main--bluecard {
@@ -99,10 +148,22 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 10px;
+  max-width: 700px;
 }
 .post_section .post_section__main .post_section__main--post .post-img {
   flex: 1 1 100%;
   height: 200px;
+  display: flex;
+  background-image: url(https://picsum.photos/700/1000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.post_section .post_section__main .post_section__main--post .post-img--posting {
+  flex: 1 1 100%;
+  height: 400px;
   display: flex;
   background-image: url(https://picsum.photos/700/1000);
   background-repeat: no-repeat;
@@ -142,6 +203,7 @@
   flex: 1 1 100%;
   color: #979494;
   text-decoration: none;
+  padding-left: 4px;
 }
 .post_section .post_section__main .post_section__main--post .user-img .user-data .user-post--date:hover {
   color: black;
@@ -155,19 +217,29 @@
 .post_section .post_section__main .post_section__main--post .user-post {
   display: flex;
   flex-wrap: wrap;
+}
+.post_section .post_section__main .post_section__main--post .user-post .post-content {
+  display: flex;
+  flex-direction: column;
   padding-left: 50px;
-  border: solid 1px darkblue;
+  padding-right: 50px;
+}
+.post_section .post_section__main .post_section__main--post .user-post .post-content p {
+  width: 100%;
+  min-width: 0;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments {
   display: flex;
-  width: 100%;
   flex-direction: column;
-  border-top: solid 1px black;
+  width: 700px;
+  border-top: solid 1px rgba(150, 150, 150, 0.3);
   margin-top: 20px;
+  padding: 0 50px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--bottom {
   display: flex;
   justify-content: center;
+  padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -179,7 +251,7 @@
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--textarea {
   display: flex;
   padding-top: 20px;
-  justify-content: space-between;
+  gap: 20px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--textarea img {
   margin-top: 5px;
@@ -193,7 +265,7 @@
   align-content: center;
   align-items: center;
   padding-top: 20px;
-  gap: 40%;
+  gap: 340px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--subscribe h2 {
   margin: 0;
@@ -213,28 +285,10 @@
   color: white;
   text-decoration: underline;
 }
-.post_section .post_section__main .post_section__main--post .user-post .user-post--name {
-  color: #474747;
-  display: block;
-  font-size: 18px;
-  margin-top: 15px;
-}
-.post_section .post_section__main .post_section__main--post .user-post .user-post--name span {
-  border-radius: 6px;
-  padding: 4px;
-}
-.post_section .post_section__main .post_section__main--post .user-post .user-post--name span:hover {
-  background-color: rgb(246, 246, 246);
-}
-.post_section .post_section__main .post_section__main--post .user-post .user-post--date {
-  color: #979494;
-}
-.post_section .post_section__main .post_section__main--post .user-post .user-post--date:hover {
-  color: black;
-}
 .post_section .post_section__main .post_section__main--post .user-post .user-post--title {
   font-size: xx-large;
   font-weight: bold;
+  padding-left: 50px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .user-post--title:hover {
   color: rgb(43, 50, 164);
@@ -247,6 +301,7 @@
 .post_section .post_section__main .post_section__main--post .user-post .hash {
   flex: 1 1 100%;
   margin: 10px 0px;
+  padding-left: 50px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .hash a {
   border-radius: 6px;
@@ -261,6 +316,7 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
+  padding-left: 50px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .comments .time {
   display: flex;
@@ -501,9 +557,10 @@
   align-items: center;
   align-content: center;
   justify-content: center;
+  position: fixed;
 }
 .menu_section .side-menu--post .heart i {
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 25px;
   text-align: center;
 }
@@ -511,13 +568,38 @@
   color: red;
 }
 .menu_section .side-menu--post .heart p {
+  padding-top: 10px;
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+.menu_section .side-menu--post .comment i {
+  font-size: 25px;
+  margin-top: 25px;
   text-align: center;
 }
 .menu_section .side-menu--post .comment i:hover {
   color: orange;
 }
+.menu_section .side-menu--post .comment p {
+  padding-top: 10px;
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+.menu_section .side-menu--post .bookmark i {
+  font-size: 25px;
+  margin-top: 25px;
+  text-align: center;
+}
 .menu_section .side-menu--post .bookmark i:hover {
   color: rgb(43, 50, 164);
+}
+.menu_section .side-menu--post .bookmark p {
+  padding-top: 10px;
+  font-size: 12px;
+  color: gray;
+  text-align: center;
 }
 .menu_section .side-menu--post .points i {
   display: flex;
@@ -680,6 +762,65 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+.listing_section aside .user_profile {
+  border-radius: 20px;
+  width: 350px;
+  background-color: rgb(249, 249, 249);
+  box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
+  padding: 0 20px;
+  position: relative;
+  overflow: hidden;
+}
+.listing_section aside .user_profile:before {
+  position: absolute;
+  content: " ";
+  display: flex;
+  right: 0px;
+  padding: 15px 600px;
+  background-color: cadetblue;
+}
+.listing_section aside .user_profile .user_profile--name {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  position: relative;
+}
+.listing_section aside .user_profile .user_profile--name h2 {
+  position: absolute;
+  left: 60px;
+  top: 45px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.listing_section aside .user_profile .user_profile--name img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: solid 1px rgba(120, 120, 120, 0.3);
+}
+.listing_section aside .user_profile a {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(55, 64, 214);
+}
+.listing_section aside .user_profile .description {
+  padding-top: 20px;
+  color: gray;
+}
+.listing_section aside .user_profile .user_profile--info h3 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+.listing_section aside .user_profile .user_profile--info p {
+  color: gray;
 }
 .listing_section aside .listing_section__card {
   border-radius: 20px;
