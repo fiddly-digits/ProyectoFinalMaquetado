@@ -13,11 +13,11 @@
   padding-bottom: 20px;
 }
 .post_section .menu_section__card {
-  display: grid;
-  margin: 1rem 0 0 0;
   background-color: rgb(249, 249, 249);
   border-radius: 8px;
   box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
+  display: grid;
+  margin: 1rem 0 0 0;
 }
 .post_section .menu_section__card .menu_section__card__title {
   display: flex;
@@ -25,30 +25,30 @@
   padding: 0.5rem;
 }
 .post_section .menu_section__card .menu_section__card__title h3 {
-  margin: 0;
   font-size: small;
+  margin: 0;
   padding: 0.5rem 0.5rem;
 }
 .post_section .menu_section__card .menu_section__card__title i {
   padding: 0.5rem;
 }
 .post_section .menu_section__card .menu_section__card__title i:hover {
-  color: rgb(50, 57, 169);
-  border-radius: 0.3rem;
   background-color: rgb(224, 225, 240);
+  border-radius: 0.3rem;
+  color: rgb(50, 57, 169);
 }
 .post_section .menu_section__card .menu_section__card__image {
   display: flex;
   padding-left: 50px;
 }
 .post_section .menu_section__card .menu_section__card__image img {
-  width: 600px;
-  height: 200px;
   border-radius: 6px;
+  height: 200px;
+  width: 600px;
 }
 .post_section .menu_section__card p {
-  padding-left: 50px;
   max-width: auto;
+  padding-left: 50px;
 }
 .post_section .menu_section__card p strong span {
   font-size: 25px;
@@ -68,8 +68,8 @@
   border-radius: 6px;
   display: flex;
   flex-wrap: wrap;
-  padding: 40px;
   justify-content: space-between;
+  padding: 40px;
 }
 .post_section .post_section__main .post_section__main--bluecard .logo {
   display: flex;
@@ -89,40 +89,40 @@
 }
 .post_section .post_section__main .post_section__main--bluecard .emojis h2 {
   color: white;
-  margin-top: 8px;
-  margin-bottom: 0;
   font-weight: bolder;
+  margin-bottom: 0;
+  margin-top: 8px;
 }
 .post_section .post_section__main .post_section__main--bluecard .emojis p {
   color: rgb(184, 187, 241);
-  margin: 0;
   font-size: 0.8rem;
+  margin: 0;
 }
 .post_section .post_section__main .post_section__main--bluecard .emojis ul {
-  list-style: none;
-  padding-left: 0;
-  padding-top: 20px;
-  padding-right: 40px;
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+  list-style: none;
+  padding-left: 0;
+  padding-right: 40px;
+  padding-top: 20px;
 }
 .post_section .post_section__main .post_section__main--bluecard .emojis ul li {
+  align-items: center;
   background-color: rgb(95, 102, 223);
   border-radius: 6px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
   flex: 1 1 100%;
+  justify-content: space-between;
+  padding: 20px;
 }
 .post_section .post_section__main .post_section__main--bluecard .emojis ul li:hover {
   background-color: rgb(115, 122, 227);
 }
 .post_section .post_section__main .post_section__main--bluecard .emojis ul li a {
   color: white;
-  text-decoration: none;
   font-weight: 500;
+  text-decoration: none;
 }
 .post_section .post_section__main .post_section__main--bluecard .emojis ul li i {
   color: white;
@@ -133,13 +133,13 @@
 .post_section .post_section__main .post_section__main--menu-aling a {
   color: #575757;
   font-size: 18px;
-  text-decoration: none;
   padding: 12px 10px;
+  text-decoration: none;
 }
 .post_section .post_section__main .post_section__main--menu-aling a:hover {
   background-color: white;
-  box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
   border-radius: 6px;
+  box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
   color: rgb(50, 57, 169);
 }
 .post_section .post_section__main .post_section__main--post {
@@ -151,43 +151,43 @@
   max-width: 700px;
 }
 .post_section .post_section__main .post_section__main--post .post-img {
+  background-image: url(https://picsum.photos/700/1000);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  display: flex;
   flex: 1 1 100%;
   height: 200px;
-  display: flex;
-  background-image: url(https://picsum.photos/700/1000);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px;
 }
 .post_section .post_section__main .post_section__main--post .post-img--posting {
-  flex: 1 1 100%;
-  height: 400px;
-  display: flex;
   background-image: url(https://picsum.photos/700/1000);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  border-top-right-radius: 6px;
   border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  display: flex;
+  flex: 1 1 100%;
+  height: 400px;
 }
 .post_section .post_section__main .post_section__main--post .user-img {
-  padding: 10px;
+  align-items: center;
   display: flex;
   justify-content: end;
   padding-right: 10px;
   padding-top: 15px;
-  align-items: center;
+  padding: 10px;
 }
 .post_section .post_section__main .post_section__main--post .user-img .user-data {
   display: flex;
   flex-wrap: wrap;
 }
 .post_section .post_section__main .post_section__main--post .user-img .user-data .user-post--name {
-  flex: 1 1 100%;
   color: #474747;
   display: block;
+  flex: 1 1 100%;
   font-size: 18px;
   margin-top: 15px;
   text-decoration: none;
@@ -200,18 +200,18 @@
   background-color: rgb(246, 246, 246);
 }
 .post_section .post_section__main .post_section__main--post .user-img .user-data .user-post--date {
-  flex: 1 1 100%;
   color: #979494;
-  text-decoration: none;
+  flex: 1 1 100%;
   padding-left: 4px;
+  text-decoration: none;
 }
 .post_section .post_section__main .post_section__main--post .user-img .user-data .user-post--date:hover {
   color: black;
 }
 .post_section .post_section__main .post_section__main--post .user-img img {
-  margin-top: 5px;
   border-radius: 50%;
   height: 40px;
+  margin-top: 5px;
   width: 40px;
 }
 .post_section .post_section__main .post_section__main--post .user-post {
@@ -225,60 +225,60 @@
   padding-right: 50px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .post-content p {
-  width: 100%;
   min-width: 0;
+  width: 100%;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments {
+  border-top: solid 1px rgba(150, 150, 150, 0.3);
   display: flex;
   flex-direction: column;
-  width: 700px;
-  border-top: solid 1px rgba(150, 150, 150, 0.3);
   margin-top: 20px;
   padding: 0 50px;
+  width: 700px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--bottom {
   display: flex;
   justify-content: center;
-  padding-top: 10px;
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 10px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--bottom div {
   display: flex;
-  padding: 10px;
   gap: 15px;
+  padding: 10px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--textarea {
   display: flex;
-  padding-top: 20px;
   gap: 20px;
+  padding-top: 20px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--textarea img {
-  margin-top: 5px;
   border-radius: 50%;
   height: 40px;
+  margin-top: 5px;
   width: 40px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--subscribe {
-  display: flex;
-  justify-content: space-around;
   align-content: center;
   align-items: center;
-  padding-top: 20px;
+  display: flex;
   gap: 340px;
+  justify-content: space-around;
+  padding-top: 20px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--subscribe h2 {
-  margin: 0;
   font-size: 20px;
+  margin: 0;
   white-space: nowrap;
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--subscribe a {
   background-color: rgb(249, 249, 249);
-  border: solid 1px rgb(50, 57, 169);
   border-radius: 6px;
+  border: solid 1px rgb(50, 57, 169);
+  color: rgb(50, 57, 169);
   padding: 7px 15px;
   text-decoration: none;
-  color: rgb(50, 57, 169);
 }
 .post_section .post_section__main .post_section__main--post .user-post .top-comments .top-comments--subscribe a:hover {
   background: rgb(50, 57, 169);
@@ -294,8 +294,8 @@
   color: rgb(43, 50, 164);
 }
 .post_section .post_section__main .post_section__main--post .user-post a {
-  flex: 1 1 100%;
   color: rgb(23, 23, 23);
+  flex: 1 1 100%;
   text-decoration: none;
 }
 .post_section .post_section__main .post_section__main--post .user-post .hash {
@@ -312,18 +312,18 @@
   box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.1);
 }
 .post_section .post_section__main .post_section__main--post .user-post .comments {
-  flex: 1 1 100%;
   display: flex;
+  flex: 1 1 100%;
   justify-content: space-between;
   padding-bottom: 10px;
   padding-left: 50px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .comments .time {
+  align-items: center;
   display: flex;
-  padding-right: 30px;
   gap: 15px;
   justify-content: end;
-  align-items: center;
+  padding-right: 30px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .comments .time i {
   align-items: center;
@@ -331,43 +331,43 @@
   padding: 10px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .comments .time i:hover {
-  color: rgb(50, 57, 169);
-  border-radius: 0.3rem;
   background-color: rgb(224, 225, 240);
+  border-radius: 0.3rem;
+  color: rgb(50, 57, 169);
 }
 .post_section .post_section__main .post_section__main--post .user-post .comments .add {
   display: flex;
 }
 .post_section .post_section__main .post_section__main--post .user-post .comments .add span {
-  padding: 8px;
   border-radius: 6px;
+  padding: 8px;
 }
 .post_section .post_section__main .post_section__main--post .user-post .comments .add span:hover {
   background-color: rgb(246, 246, 246);
   box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.1);
 }
 .post_section .post_section__main .post_section__main--post .user-post .comments .add span::before {
+  content: "\f075";
   display: inline-block;
   font-family: "Font Awesome 5 Free";
-  content: "\f075";
   padding-right: 5px;
 }
 
 .header {
   background-color: rgb(245, 245, 245);
-  display: flex;
-  height: 60px;
   border-bottom: solid 1px rgb(150, 150, 150);
   box-shadow: 0 0 0 2px rgba(23, 23, 23, 0.05);
+  display: flex;
+  height: 60px;
   position: sticky;
   top: 0;
   z-index: 999;
 }
 .header .header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 .header .header-container .icons {
   display: flex;
@@ -384,21 +384,21 @@
   position: relative;
 }
 .header .header-container .icons .create-post .bell::after {
+  background-color: red;
+  border-radius: 6px;
+  bottom: 18px;
+  color: white;
   content: "20";
   font-family: "Inter", sans-serif;
-  position: absolute;
   font-size: 10px;
-  padding: 3px;
-  border-radius: 6px;
-  background-color: red;
-  color: white;
   left: 19px;
-  bottom: 18px;
+  padding: 3px;
+  position: absolute;
 }
 .header .header-container .icons .create-post .bell:hover {
-  color: rgb(50, 57, 169);
-  border-radius: 0.3rem;
   background-color: rgb(224, 225, 240);
+  border-radius: 0.3rem;
+  color: rgb(50, 57, 169);
 }
 .header .header-container .icons .create-post .user {
   font-size: 23px;
@@ -409,11 +409,11 @@
 }
 .header .header-container .icons .create-post a {
   background-color: rgb(249, 249, 249);
-  border: solid 1px rgb(50, 57, 169);
   border-radius: 6px;
+  border: solid 1px rgb(50, 57, 169);
+  color: rgb(50, 57, 169);
   padding: 7px 15px;
   text-decoration: none;
-  color: rgb(50, 57, 169);
 }
 .header .header-container .icons .create-post a:hover {
   background: rgb(50, 57, 169);
@@ -421,49 +421,49 @@
   text-decoration: underline;
 }
 .header .header-container .logo-search {
-  padding-left: 65px;
   display: flex;
   gap: 20px;
+  padding-left: 65px;
 }
 .header .header-container .logo-search img {
-  width: 40px;
   border-radius: 10%;
+  width: 40px;
 }
 .header .header-container .logo-search .search-bar {
-  display: flex;
-  border-radius: 6px;
-  background-color: white;
-  justify-content: space-between;
   align-items: center;
+  background-color: white;
+  border-radius: 6px;
   border: solid 1px rgb(120, 120, 120);
+  display: flex;
+  justify-content: space-between;
 }
 .header .header-container .logo-search .search-bar:hover {
   border: solid 2px rgb(50, 57, 169);
 }
 .header .header-container .logo-search .search-bar input {
-  border-width: 0px;
-  border-style: none;
   border-color: transparent;
-  padding: 5px;
+  border-style: none;
+  border-width: 0px;
   outline: none;
+  padding: 5px;
 }
 .header .header-container .logo-search .search-bar img {
-  width: 40px;
   padding: 5px;
+  width: 40px;
 }
 .header .header-container .logo-search .search-bar img:hover {
-  color: rgb(50, 57, 169);
-  border-radius: 0.3rem;
   background-color: rgb(224, 225, 240);
+  border-radius: 0.3rem;
+  color: rgb(50, 57, 169);
 }
 
 .row_footer {
   background: rgb(229, 229, 229);
   display: flex;
   height: 100%;
+  justify-content: center;
   padding: 50px 80px;
   width: 100%;
-  justify-content: center;
 }
 .row_footer .footer_container {
   display: flex;
@@ -474,45 +474,45 @@
 .row_footer .footer_container .text_1 p {
   align-items: center;
   display: flex;
-  font-family: "Roboto", sans-serif;
   flex-direction: row;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
   justify-content: center;
   margin-bottom: 0;
   padding: 4px;
-  font-size: 14px;
   width: auto;
 }
 .row_footer .footer_container .text_1 p a {
   color: rgb(59, 73, 223);
   font-family: "Roboto", sans-serif;
-  font-weight: bolder;
   font-size: 14px;
-  transition: 0.3s;
+  font-weight: bolder;
   text-decoration: none;
+  transition: 0.3s;
 }
 .row_footer .a_list, .row_footer .b_list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 4px;
-  padding: 20px;
-  padding-top: 0;
   padding-bottom: 0;
+  padding-top: 0;
+  padding: 20px;
   width: auto;
 }
 .row_footer .a_list li, .row_footer .b_list li {
-  display: block;
   color: rgb(59, 73, 223);
+  display: block;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  padding: 3px;
   list-style: none;
+  padding: 3px;
 }
 .row_footer .a_list li a, .row_footer .b_list li a {
-  white-space: nowrap;
   color: rgb(59, 73, 223);
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+  white-space: nowrap;
 }
 .row_footer .a_list li span, .row_footer .b_list li span {
   color: rgb(113, 112, 112);
@@ -520,43 +520,43 @@
 }
 .row_footer .text_2 p {
   align-items: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
   gap: 5px;
-  padding: 0;
+  justify-content: center;
   margin: 0;
+  padding: 0;
   width: auto;
 }
 .row_footer .text_2 p .final_anchor2 {
+  color: rgb(59, 73, 223);
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  color: rgb(59, 73, 223);
 }
 .row_footer .names {
+  color: rgb(188, 183, 183);
   display: flex;
   flex-direction: row;
-  gap: 3px;
   font-size: 5px;
-  color: rgb(188, 183, 183);
+  gap: 3px;
 }
 
 .menu_section {
+  align-items: start;
   background-color: rgb(243, 243, 243);
   min-width: 300px;
-  align-items: start;
 }
 .menu_section .side-menu--post {
+  align-content: center;
+  align-items: center;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   padding-right: 20px;
   padding-top: 100px;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
   position: fixed;
 }
 .menu_section .side-menu--post .heart i {
@@ -568,9 +568,9 @@
   color: red;
 }
 .menu_section .side-menu--post .heart p {
-  padding-top: 10px;
-  font-size: 12px;
   color: gray;
+  font-size: 12px;
+  padding-top: 10px;
   text-align: center;
 }
 .menu_section .side-menu--post .comment i {
@@ -582,9 +582,9 @@
   color: orange;
 }
 .menu_section .side-menu--post .comment p {
-  padding-top: 10px;
-  font-size: 12px;
   color: gray;
+  font-size: 12px;
+  padding-top: 10px;
   text-align: center;
 }
 .menu_section .side-menu--post .bookmark i {
@@ -596,25 +596,25 @@
   color: rgb(43, 50, 164);
 }
 .menu_section .side-menu--post .bookmark p {
-  padding-top: 10px;
-  font-size: 12px;
   color: gray;
+  font-size: 12px;
+  padding-top: 10px;
   text-align: center;
 }
 .menu_section .side-menu--post .points i {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   height: 35px;
+  justify-content: center;
   width: 35px;
 }
 .menu_section .side-menu--post .points i:hover {
-  border-radius: 50%;
   background-color: rgb(224, 225, 240);
+  border-radius: 50%;
 }
 .menu_section .side-menu--main {
-  padding-top: 20px;
   display: grid;
+  padding-top: 20px;
   place-content: center;
 }
 .menu_section .side-menu--main .menu_section__sidebar__menu {
@@ -624,13 +624,13 @@
 .menu_section .side-menu--main .menu_section__sidebar__menu .menu_section__sidebar__menu__list {
   display: flex;
   flex-direction: column;
-  padding: 0;
   list-style-type: none;
+  padding: 0;
 }
 .menu_section .side-menu--main .menu_section__sidebar__menu .menu_section__sidebar__menu__list .menu_section__sidebar__title {
-  margin: 0;
   font-size: medium;
   font-weight: bold;
+  margin: 0;
   padding: 1rem 1rem 0.5rem 0.5rem;
 }
 .menu_section .side-menu--main .menu_section__sidebar__menu .menu_section__sidebar__menu__list li {
@@ -640,81 +640,81 @@
 .menu_section .side-menu--main .menu_section__sidebar__menu .menu_section__sidebar__menu__list li a {
   color: rgb(56, 56, 56);
   display: flex;
-  text-decoration: none;
-  margin: 0;
   font-size: medium;
+  margin: 0;
   padding: 0.5rem;
+  text-decoration: none;
 }
 .menu_section .side-menu--main .menu_section__sidebar__menu .menu_section__sidebar__menu__list li a img {
-  width: 25px;
+  bottom: 1px;
   height: 25px;
   position: relative;
-  bottom: 1px;
+  width: 25px;
 }
 .menu_section .side-menu--main .menu_section__sidebar__menu .menu_section__sidebar__menu__list li a:hover {
+  background-color: rgb(224, 225, 240);
+  border-radius: 0.3rem;
   color: rgb(50, 57, 169);
   text-decoration: underline;
-  border-radius: 0.3rem;
-  background-color: rgb(224, 225, 240);
 }
 .menu_section .side-menu--main .social-container {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .menu_section .side-menu--main .social-container .menu_section__social {
+  align-items: center;
   display: flex;
-  width: 100%;
   font-size: 22px;
   justify-content: space-around;
-  align-items: center;
+  width: 100%;
 }
 .menu_section .side-menu--main .social-container .menu_section__social a {
   color: rgb(56, 56, 56);
-  text-decoration: none;
   padding: 0.5rem;
+  text-decoration: none;
 }
 .menu_section .side-menu--main .social-container .menu_section__social a:hover {
-  color: rgb(50, 57, 169);
-  border-radius: 0.3rem;
   background-color: rgb(224, 225, 240);
+  border-radius: 0.3rem;
+  color: rgb(50, 57, 169);
 }
 .menu_section .side-menu--main .tags-container {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .menu_section .side-menu--main .tags-container .menu_section__tags {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem 0 4rem 0;
+  display: flex;
   font-size: 22px;
+  justify-content: space-between;
+  padding: 1rem 0 4rem 0;
   width: 100%;
 }
 .menu_section .side-menu--main .tags-container .menu_section__tags .menu_section__tags__title {
-  margin: 0;
   font-size: medium;
   font-weight: bold;
+  margin: 0;
 }
 .menu_section .side-menu--main .tags-container .menu_section__tags a {
   color: rgb(56, 56, 56);
-  text-decoration: none;
-  text-align: center;
   padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
 }
 .menu_section .side-menu--main .tags-container .menu_section__tags a:hover {
-  color: rgb(50, 57, 169);
-  border-radius: 0.3rem;
   background-color: rgb(224, 225, 240);
+  border-radius: 0.3rem;
+  color: rgb(50, 57, 169);
 }
 .menu_section .side-menu--main .menu_section__card {
-  display: grid;
-  width: 250px;
-  margin: 1rem 0 0 0;
   background-color: rgb(249, 249, 249);
   border-radius: 8px;
   box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
+  display: grid;
+  margin: 1rem 0 0 0;
+  width: 250px;
 }
 .menu_section .side-menu--main .menu_section__card .menu_section__card__title {
   display: flex;
@@ -722,26 +722,26 @@
   padding: 0.5rem;
 }
 .menu_section .side-menu--main .menu_section__card .menu_section__card__title h3 {
-  margin: 0;
   font-size: small;
+  margin: 0;
   padding: 0.5rem 0.5rem;
 }
 .menu_section .side-menu--main .menu_section__card .menu_section__card__title i {
   padding: 0.5rem;
 }
 .menu_section .side-menu--main .menu_section__card .menu_section__card__title i:hover {
-  color: rgb(50, 57, 169);
-  border-radius: 0.3rem;
   background-color: rgb(224, 225, 240);
+  border-radius: 0.3rem;
+  color: rgb(50, 57, 169);
 }
 .menu_section .side-menu--main .menu_section__card .menu_section__card__image {
   display: flex;
   margin: 1rem;
 }
 .menu_section .side-menu--main .menu_section__card .menu_section__card__image img {
-  width: 210px;
-  height: 90px;
   border-radius: 6px;
+  height: 90px;
+  width: 210px;
 }
 .menu_section .side-menu--main .menu_section__card p {
   margin: 0.5rem 1rem;
@@ -758,75 +758,78 @@
 }
 
 .listing_section aside {
-  padding-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-top: 20px;
 }
 .listing_section aside .user_profile {
-  border-radius: 20px;
-  width: 350px;
   background-color: rgb(249, 249, 249);
+  border-radius: 20px;
   box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
+  overflow: hidden;
   padding: 0 20px;
   position: relative;
-  overflow: hidden;
+  width: 350px;
 }
 .listing_section aside .user_profile:before {
-  position: absolute;
+  background-color: cadetblue;
   content: " ";
   display: flex;
-  right: 0px;
   padding: 15px 600px;
-  background-color: cadetblue;
+  position: absolute;
+  right: 0px;
 }
 .listing_section aside .user_profile .user_profile--name {
-  padding-top: 20px;
+  align-items: center;
   display: flex;
   gap: 10px;
   padding-bottom: 10px;
-  align-items: center;
+  padding-top: 20px;
   position: relative;
 }
 .listing_section aside .user_profile .user_profile--name h2 {
-  position: absolute;
-  left: 60px;
-  top: 45px;
   font-size: 20px;
   font-weight: bold;
+  left: 60px;
+  position: absolute;
+  top: 45px;
 }
 .listing_section aside .user_profile .user_profile--name img {
   border-radius: 50%;
+  border: solid 1px rgba(120, 120, 120, 0.3);
   height: 50px;
   width: 50px;
-  border: solid 1px rgba(120, 120, 120, 0.3);
 }
 .listing_section aside .user_profile a {
-  display: flex;
-  padding: 10px;
-  justify-content: center;
-  border-radius: 6px;
-  text-decoration: none;
-  color: white;
   background-color: rgb(55, 64, 214);
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+}
+.listing_section aside .user_profile a:hover {
+  background-color: rgb(44, 51, 166);
 }
 .listing_section aside .user_profile .description {
-  padding-top: 20px;
   color: gray;
+  padding-top: 20px;
 }
 .listing_section aside .user_profile .user_profile--info h3 {
-  margin: 0;
   font-size: 12px;
   font-weight: bold;
+  margin: 0;
 }
 .listing_section aside .user_profile .user_profile--info p {
   color: gray;
 }
 .listing_section aside .listing_section__card {
-  border-radius: 20px;
-  width: 350px;
   background-color: rgb(249, 249, 249);
+  border-radius: 20px;
   box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
+  width: 350px;
 }
 .listing_section aside .listing_section__card .listing_section__card--title {
   display: flex;
@@ -838,14 +841,14 @@
   font-weight: bold;
 }
 .listing_section aside .listing_section__card .listing_section__card--title a {
-  text-decoration: none;
   color: rgb(55, 64, 215);
+  text-decoration: none;
 }
 .listing_section aside .listing_section__card .listing_section__card--list {
+  border-top: solid 1px rgba(56, 56, 56, 0.1);
   display: flex;
   flex-direction: column;
   padding: 10px;
-  border-top: solid 1px rgba(56, 56, 56, 0.1);
 }
 .listing_section aside .listing_section__card .listing_section__card--list:hover {
   background-color: rgb(255, 255, 255);
@@ -861,30 +864,30 @@
 }
 .listing_section aside .listing_section__card .listing_section__card--list p:nth-child(2) {
   color: rgb(56, 56, 56);
-  margin-top: 5px;
   font-size: 13px;
+  margin-top: 5px;
 }
 .listing_section aside .listing_section__card .listing_section__card--list .new {
   background-color: rgb(252, 205, 56);
-  padding: 2px;
   border-radius: 6px;
+  color: brown !important;
+  padding: 2px;
   width: -moz-fit-content;
   width: fit-content;
-  color: brown !important;
 }
 .listing_section aside .listing_section__card .last:hover {
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
 }
 .listing_section aside .listing_section__card .listing_section__card--foot {
+  border-top: solid 1px rgba(56, 56, 56, 0.1);
   display: flex;
   justify-content: center;
   padding: 5px 0;
-  border-top: solid 1px rgba(56, 56, 56, 0.1);
 }
 .listing_section aside .listing_section__card .listing_section__card--foot p {
-  margin: 6px;
   color: rgb(56, 56, 56);
+  margin: 6px;
 }
 .listing_section aside .listing_section__card .listing_section__card--foot p:hover {
   color: rgb(44, 51, 166);
