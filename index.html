@@ -1,13 +1,539 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEV.TO Clone</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/42388cee6d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="row header">
+      <nav class="header-container">
+        <div class="logo-search">
+          <img
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--R9qwOwpC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/78hs31fax49uwy6kbxyw.png"
+            alt="logoDEV"
+          />
+
+          <div class="search-bar">
+            <input class="search" type="text" placeholder="Search..." />
+            <a href=".">
+              <img src="./assets/icons/magnifying-glass-icon-26762.png" alt="logolupa" />
+            </a>
+          </div>
+        </div>
+
+        <nav class="icons">
+          <div class="create-post">
+            <a href=""> Create Post </a>
+            <i class="fa-regular fa-bell bell"></i>
+            <i class="fa-regular fa-circle-user user"></i>
+          </div>
+        </nav>
+      </nav>
+    </header>
+
+    <section class="row main_section">
+      <!-- d-flex justify-content-end flex-wrap -->
+      <section class="col-3 d-flex justify-content-end menu_section">
+        <aside class="side-menu--main">
+          <nav class="menu_section__sidebar__menu">
+            <ul class="menu_section__sidebar__menu__list">
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/home.svg" alt="" />
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/reading-list.svg" alt="" />
+                  Reading List
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/listings.svg" alt="" />
+                  Listings
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/podcast.svg" alt="" />
+                  Podcasts
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/videos.svg" alt="" />
+                  Videos
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/tags.svg" alt="" />
+                  Tags
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/faq.svg" alt="" />
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/shop.svg" alt="" />
+                  Forem Shop
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/sponsors.svg" alt="" />
+                  Sponsors
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/about.svg" alt="" />
+                  About
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/contact.svg" alt="" />
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/guides.svg" alt="" />
+                  Guides
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/software-comparisons.svg" alt="" />
+                  Software Comparisons
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav class="menu_section__sidebar__menu">
+            <ul class="menu_section__sidebar__menu__list">
+              <h2 class="menu_section__sidebar__title">Other</h2>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/code-conduct.svg" alt="" />
+                  Code of Conduct
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/privacy-policy.svg" alt="" />
+                  Privacy policy
+                </a>
+              </li>
+              <li>
+                <a href=".">
+                  <img src="./assets/icons/terms-use.svg" alt="" />
+                  Terms of Use
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="social-container">
+            <div class="menu_section__social">
+              <a href="." class="fa-brands fa-twitter" target="_blank"></a>
+              <a href="." class="fa-brands fa-facebook" target="_blank"></a>
+              <a href="." class="fa-brands fa-github" target="_blank"></a>
+              <a href="." class="fa-brands fa-instagram" target="_blank"></a>
+              <a href="." class="fa-brands fa-twitch" target="_blank"></a>
+              <a href="." class="fa-brands fa-mastodon" target="_blank"></a>
+            </div>
+          </div>
+
+          <div class="tags-container">
+            <div class="menu_section__tags">
+              <h2 class="menu_section__tags__title">My Tags</h2>
+              <a href="." class="fa-regular fa-gear" target="_blank"></a>
+            </div>
+          </div>
+
+          <div class="menu_section__card">
+            <div class="menu_section__card__title">
+              <h3>DEV Community</h3>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+
+            <div class="menu_section__card__image">
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--fIs7T4ga--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://jess.forem.lol/remoteimages/uploads/articles/9ga7i09w99yubqm4fxrv.png"
+                alt=""
+              />
+            </div>
+            <p>
+              <strong
+                >Calling all early-career developers and coding mentors!</strong
+              >
+            </p>
+            <p>
+              Join CodeNewbie Community: a supportive space for coding newbies
+              to connect and express themselves.
+            </p>
+            <p>
+              <strong><a href=".">→Get in on the fun!</a></strong>
+            </p>
+          </div>
+
+          <div class="menu_section__card">
+            <div class="menu_section__card__title">
+              <h3>DEV Community</h3>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+
+            <div class="menu_section__card__image">
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--vf_P4FwD--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://p32.f1.n0.cdn.getcloudapp.com/items/OAu6mnD1/20ada628-9434-4772-a8e0-7d861713d3c4.jpg"
+                alt=""
+              />
+            </div>
+
+            <p>
+              <strong><span>Forem Shop is Here!</span></strong>
+            </p>
+            <p>
+              <strong><a href=".">++Shop Forem, DEV, and CodeNewbie merch</a></strong>
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="col-5 d-flex justify-content-center post_section">
+        <div class="post_section__main">
+          <div class="post_section__main--bluecard">
+            <div class="logo">
+              <img
+                src="https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png"
+                alt=""
+              />
+            </div>
+            <div class="boton-close">
+              <button><i class="fa-solid fa-x"></i></button>
+            </div>
+            <div class="emojis">
+              <h2>
+                You're now a part of the <br />
+                community!
+              </h2>
+              <p>SUGGESTED THINGS YOU CAN DO</p>
+              <ul>
+                <li>
+                  <a href="">😊 Join the Welcome thread</a>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </li>
+                <li>
+                  <a href="">✍🏾 Write you first DEV Community</a>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </li>
+                <li>
+                  <a href="">💅🏼 Customize your profile</a>
+                  <i class="fa-solid fa-chevron-right"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <nav class="post_section__main--menu-aling">
+            <a href="">Relevant</a>
+            <a href=""><strong>Latest</strong></a>
+            <a href="">Top</a>
+          </nav>
+
+          <article class="post_section__main--post">
+            <div class="post-img"></div>
+            <div class="user-img">
+              <img src="./assets/images/hollow-knight.png" alt="" />
+              <div class="user-data">
+                <a href="" class="user-post--name"><span>Pao Arreola</span></a>
+                <a href="" class="user-post--date">Apr 7 (18 hours ago)</a>
+              </div>
+            </div>
+            <div class="user-post">
+              <a href="./post.html" class="user-post--title"
+                >La Boda de mis sueños 💕❤💍</a
+              >
+              <div class="hash">
+                <a href="">#lunademiel</a>
+                <a href="">#tornaboda</a>
+                <a href="">#vidaenpareja</a>
+              </div>
+              <div class="comments">
+                <a href="" class="add"><span>Add comment</span></a>
+                <a href="" class="time"
+                  >3 min read<i class="fa-regular fa-bookmark"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="post_section__main--post">
+            <div class="user-img">
+              <img src="./assets/images/Photo_green.jpg" alt="" />
+              <div class="user-data">
+                <a href="" class="user-post--name"><span>Sam Castillo</span></a>
+                <a href="" class="user-post--date">Apr 7 (18 hours ago)</a>
+              </div>
+            </div>
+            <div class="user-post">
+              <a href="" class="user-post--title">Arquitectura en las manos</a>
+              <div class="hash">
+                <a href="">#arquitecturaresponsable</a>
+                <a href="">#design</a>
+                <a href="">#arquitectura</a>
+              </div>
+              <div class="comments">
+                <a href="" class="add"><span>Add comment</span></a>
+                <a href="" class="time"
+                  >3 min read<i class="fa-regular fa-bookmark"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="post_section__main--post">
+            <div class="user-img">
+              <img src="./assets/images/karla.jpeg" alt="" />
+              <div class="user-data">
+                <a href="" class="user-post--name"><span>Karla Herzo</span></a>
+                <a href="" class="user-post--date">Apr 7 (18 hours ago)</a>
+              </div>
+            </div>
+            <div class="user-post">
+              <a href="" class="user-post--title"
+                >Recomendacion personal peliculas estudio Ghibli</a
+              >
+              <div class="hash">
+                <a href="">#movies</a>
+                <a href="">#animation</a>
+                <a href="">#japanese</a>
+              </div>
+              <div class="comments">
+                <a href="" class="add"><span>Add comment</span></a>
+                <a href="" class="time"
+                  >3 min read<i class="fa-regular fa-bookmark"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="post_section__main--post">
+            <div class="user-img">
+              <img src="./assets/images/film2-1.jpg" alt="" />
+              <div class="user-data">
+                <a href="" class="user-post--name"><span>Rob Cruz</span></a>
+                <a href="" class="user-post--date">Apr 7 (18 hours ago)</a>
+              </div>
+            </div>
+            <div class="user-post">
+              <a href="" class="user-post--title"
+                >Como protegerte ante el Phishing Bancario</a
+              >
+              <div class="hash">
+                <a href="">#ciberseguridad</a>
+                <a href="">#phishing</a>
+                <a href="">#hacker</a>
+              </div>
+              <div class="comments">
+                <a href="" class="add"><span>Add comment</span></a>
+                <a href="" class="time"
+                  >3 min read<i class="fa-regular fa-bookmark"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="post_section__main--post">
+            <div class="user-img">
+              <img src="./assets/images/gaius.png" alt="" />
+              <div class="user-data">
+                <a href="" class="user-post--name"
+                  ><span>Max Alex</span></a
+                >
+                <a href="" class="user-post--date">Apr 7 (18 hours ago)</a>
+              </div>
+            </div>
+            <div class="user-post">
+              <a href="" class="user-post--title"
+                >Equipo Ganador de los KodeAwards 2023</a
+              >
+              <div class="hash">
+                <a href="">#kodemia</a>
+                <a href="">#programming</a>
+                <a href="">#coding</a>
+              </div>
+              <div class="comments">
+                <a href="" class="add"><span>Add comment</span></a>
+                <a href="" class="time"
+                  >3 min read<i class="fa-regular fa-bookmark"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="col-4 d-flex justify-content-start listing_section">
+        <aside>
+          <div class="listing_section__card">
+            <div class="listing_section__card--title">
+              <h2>Listings</h2>
+              <a href=".">See all</a>
+            </div>
+            <div class="listing_section__card--list">
+              <p>Website for Sell</p>
+              <p>forsale</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>
+                Guia completo de data preparation com WoE e categoricao de
+                varaveis numericas: beneficios e desafios"
+              </p>
+              <p>products</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>Metaphore Story</p>
+              <p>collabs</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>Want to learn DevOps, but think Kubernetes is an overkill?</p>
+              <p>education</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>Technical writer available for hire</p>
+              <p>forhire</p>
+            </div>
+            <div class="listing_section__card--foot">
+              <p>Create a Listing</p>
+            </div>
+          </div>
+
+          <div class="listing_section__card">
+            <div class="listing_section__card--title">
+              <h2>#discuss</h2>
+            </div>
+            <div class="listing_section__card--list">
+              <p>Comparing Vue and React in 2023: Pros and Cons</p>
+              <p class="new">New</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>A beginner's guide to Termius: the ultimate terminal</p>
+              <p>9 comments</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>Back-end Guru or Front-end Fanatic</p>
+              <p>22 comments</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>What was your win this week</p>
+              <p>24 comments</p>
+            </div>
+            <div class="listing_section__card--list last">
+              <p>Need a Good Laugh? Tell Us Your Favorite Coder Jokes.</p>
+              <p>5 comments</p>
+            </div>
+          </div>
+
+          <div class="listing_section__card">
+            <div class="listing_section__card--title">
+              <h2>#watercooler</h2>
+            </div>
+            <div class="listing_section__card--list">
+              <p>I am a lazy developer</p>
+              <p>19 comments</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>Meme Monday 🐌</p>
+              <p>9 comments</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>What's the most beginner-friendly Linux distro?</p>
+              <p>101 comments</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>Meme Monday 🧵</p>
+              <p>39 comments</p>
+            </div>
+            <div class="listing_section__card--list last">
+              <p>Developer insights: Why You should conduct user interviews</p>
+              <p>2 comments</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <footer class="row_footer">
+        <div class="footer_container">
+          <div class="text_1">
+            <p>
+              <a class="underline_hover" href="#"> DEV Community</a> — A
+              constructive and inclusive social network for software developers.
+              With you every step of your journey.
+            </p>
+          </div>
+
+          <ul class="a_list">
+            <li><a href="#">Home</a><span>●</span></li>
+            <li><a href="#">Listings</a><span>●</span></li>
+            <li><a href="#">Podcast</a><span>●</span></li>
+            <li><a href="#">Videos</a><span>●</span></li>
+            <li><a href="#">Tags</a><span>●</span></li>
+            <li><a href="#">FAQ</a><span>●</span></li>
+            <li><a href="#">Forem Shop </a><span>●</span></li>
+            <li><a href="#">Sponsors</a><span>●</span></li>
+            <li><a href="#">About</a><span>●</span></li>
+            <li><a href="#">Contact</a><span>●</span></li>
+            <li><a href="#">Guides</a><span>●</span></li>
+            <li><a href="#">Software comparisons</a></li>
+          </ul>
+
+          <ul class="b_list">
+            <li><a href="#">Code of Conduct</a><span>●</span></li>
+            <li><a href="#">Privacy Policy</a><span>●</span></li>
+            <li><a href="#">Terms of use</a></li>
+          </ul>
+
+          <div class="text_2">
+            <p>
+              Built on <a class="final_anchor2"> Forem </a> — the
+              <a class="final_anchor2"> open source </a> software that powers
+              <a class="final_anchor2">DEV</a> and other inclusive communities.
+            </p>
+            <p>
+              Made with love and <a class="final_anchor2"> Ruby on Rails</a>.
+              DEV Community © 2016 - 2023.
+            </p>
+            <p class="names">Replicated by Rob, Paola, Max, Karla and Sam.</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>

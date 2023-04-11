@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEV.TO Clone</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/42388cee6d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="row header">
+      <nav class="header-container">
+        <div class="logo-search">
+          <img
+            src="https://res.cloudinary.com/practicaldev/image/fetch/s--R9qwOwpC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/78hs31fax49uwy6kbxyw.png"
+            alt="logoDEV"
+          />
+          <div class="search-bar">
+            <input class="search" type="text" placeholder="Search..." />
+            <a href=".">
+              <img src="./assets/icons/magnifying-glass-icon-26762.png" alt="logolupa" />
+            </a>
+          </div>
+        </div>
+        <nav class="icons">
+          <div class="create-post">
+            <a href=""> Create Post </a>
+            <i class="fa-regular fa-bell bell"></i>
+            <i class="fa-regular fa-circle-user user"></i>
+          </div>
+        </nav>
+      </nav>
+    </header>
+
+    <section class="row main_section">
+      <!-- d-flex justify-content-end flex-wrap -->
+      <section class="col-1 d-flex justify-content-end menu_section">
+        <aside class="side-menu--post">
+          <div class="heart">
+            <i class="fa-solid fa-heart-circle-plus fa-lg"></i>
+            <p>114</p>
+          </div>
+
+          <div class="comment">
+            <i class="fa-regular fa-comment fa-lg"></i>
+            <p>27</p>
+          </div>
+
+          <div class="bookmark">
+            <i class="fa-regular fa-bookmark fa-lg"></i>
+            <p>36</p>
+          </div>
+
+          <div class="points">
+            <i class="fa-solid fa-ellipsis fa-lg"></i>
+          </div>
+        </aside>
+      </section>
+
+      <section class="col-6 d-flex justify-content-center post_section">
+        <div class="post_section__main">
+          <article class="posting"></article>
+
+          <article class="post_section__main--post">
+            <div class="post-img--posting"></div>
+            <div class="user-img">
+              <img src="./assets/images/hollow-knight.png" alt="" />
+              <div class="user-data">
+                <a href="" class="user-post--name"><span>Pao Arreola</span></a>
+                <a href="" class="user-post--date">Apr 7 (18 hours ago)</a>
+              </div>
+            </div>
+            <div class="user-post">
+              <a href="" class="user-post--title"
+                >La Boda de mis sueños 💕❤💍</a
+              >
+              <div class="hash">
+                <a href="">#lunademiel</a>
+                <a href="">#tornaboda</a>
+                <a href="">#vidaenpareja</a>
+              </div>
+
+              <div class="post-content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolorem ipsa illum iste? Dolorum, earum accusantium. Fuga
+                  similique sint ullam laborum soluta aspernatur a dolorum,
+                  voluptatibus illo nulla vitae dolorem harum?
+                </p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolorem ipsa illum iste? Dolorum, earum accusantium. Fuga
+                  similique sint ullam laborum soluta aspernatur a dolorum,
+                  voluptatibus illo nulla vitae dolorem harum?
+                </p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolorem ipsa illum iste? Dolorum, earum accusantium. Fuga
+                  similique sint ullam laborum soluta aspernatur a dolorum,
+                  voluptatibus illo nulla vitae dolorem harum?
+                </p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolorem ipsa illum iste? Dolorum, earum accusantium. Fuga
+                  similique sint ullam laborum soluta aspernatur a dolorum,
+                  voluptatibus illo nulla vitae dolorem harum?
+                </p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolorem ipsa illum iste? Dolorum, earum accusantium. Fuga
+                  similique sint ullam laborum soluta aspernatur a dolorum,
+                  voluptatibus illo nulla vitae dolorem harum?
+                </p>
+              </div>
+              <div class="top-comments">
+                <div class="top-comments--subscribe">
+                  <h2>Top Comments(0)</h2>
+                  <a href=".">Subscribe</a>
+                </div>
+                <div class="top-comments--textarea">
+                  <img src="./assets/images/hollow-knight.png" alt="" />
+                  <textarea name="" id="" cols="50" rows="4"></textarea>
+                </div>
+                <div class="top-comments--bottom">
+                  <div>
+                    <p>Code of Conduct</p>
+                    <p>●</p>
+                    <p>Report abuse</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <div class="menu_section__card">
+            <div class="menu_section__card__title">
+              <h3>DEV Community</h3>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+
+            <div class="menu_section__card__image">
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--OQ4wxLO7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_775/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/phgcbdsj99jmuq2q915x.jpg"
+                alt=""
+              />
+            </div>
+            <p><strong>We've Heard You.</strong></p>
+            <p>
+              We're working on improving your feed. Add your experience level in
+              settings to see content more relevant to you.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-3 d-flex justify-content-start listing_section">
+        <aside>
+          <div class="user_profile">
+            <div class="user_profile--name">
+              <img src="./assets/images/hollow-knight.png" alt="" />
+              <h2>Paola Arreola</h2>
+            </div>
+            <a href=".">Follow</a>
+            <p class="description">
+              I am interested in porting Intel intrinsic funcion to RISC-V
+            </p>
+            <div class="user_profile--info">
+              <h3>EDUCATION</h3>
+              <p>Kodemia</p>
+            </div>
+            <div class="user_profile--info">
+              <h3>JOINED</h3>
+              <p>Mar 11, 2023</p>
+            </div>
+          </div>
+
+          <div class="listing_section__card">
+            <div class="listing_section__card--title">
+              <h2>Trending on DEV Community 🔥</h2>
+            </div>
+            <div class="listing_section__card--list">
+              <p>A Beginner's guide to Termius: the ultimate terminal</p>
+              <p>#discuss #cloud #security</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>Back-end Guru or Front-end Fanatic</p>
+              <p>#discuss #beginners #codenewbie</p>
+            </div>
+            <div class="listing_section__card--list">
+              <p>The Productivity apps I use in 2023</p>
+              <p>#productivity #todo #opensource</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <footer class="row_footer">
+        <div class="footer_container">
+          <div class="text_1">
+            <p>
+              <a class="underline_hover" href="#"> DEV Community</a> — A
+              constructive and inclusive social network for software developers.
+              With you every step of your journey.
+            </p>
+          </div>
+
+          <ul class="a_list">
+            <li><a href="#">Home</a><span>●</span></li>
+            <li><a href="#">Listings</a><span>●</span></li>
+            <li><a href="#">Podcast</a><span>●</span></li>
+            <li><a href="#">Videos</a><span>●</span></li>
+            <li><a href="#">Tags</a><span>●</span></li>
+            <li><a href="#">FAQ</a><span>●</span></li>
+            <li><a href="#">Forem Shop </a><span>●</span></li>
+            <li><a href="#">Sponsors</a><span>●</span></li>
+            <li><a href="#">About</a><span>●</span></li>
+            <li><a href="#">Contact</a><span>●</span></li>
+            <li><a href="#">Guides</a><span>●</span></li>
+            <li><a href="#">Software comparisons</a></li>
+          </ul>
+
+          <ul class="b_list">
+            <li><a href="#">Code of Conduct</a><span>●</span></li>
+            <li><a href="#">Privacy Policy</a><span>●</span></li>
+            <li><a href="#">Terms of use</a></li>
+          </ul>
+
+          <div class="text_2">
+            <p>
+              Built on <a class="final_anchor2"> Forem </a> — the
+              <a class="final_anchor2"> open source </a> software that powers
+              <a class="final_anchor2">DEV</a> and other inclusive communities.
+            </p>
+            <p>
+              Made with love and <a class="final_anchor2"> Ruby on Rails</a>.
+              DEV Community © 2016 - 2023.
+            </p>
+            <p class="names">Replicated by Rob, Paola, Max, Karla and Sam.</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
