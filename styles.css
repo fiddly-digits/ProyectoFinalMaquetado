@@ -18,6 +18,7 @@
   box-shadow: 0 0 0 1px rgba(23, 23, 23, 0.05);
   display: grid;
   margin: 1rem 0 0 0;
+  max-width: 700px;
 }
 .post_section .menu_section__card .menu_section__card__title {
   display: flex;
