@@ -70,6 +70,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 40px;
+  max-width: 700px;
 }
 .post_section .post_section__main .post_section__main--bluecard .logo {
   display: flex;
