@@ -1,4 +1,4 @@
-#Clon pagina Dev.to - Equipo 1
+# Clon pagina Dev.to - Equipo 1
 
 ## Hecho con 🧡 por:
 
@@ -10,7 +10,7 @@
 
 ##PROCESO DE DESARROLLO DE MAQUETADO PAGINA DEV.to.
 
-
+# Esto es un cambio :0 
 
 1. Organización de Equipo. 
 2. Inspección de la página DEV.to
